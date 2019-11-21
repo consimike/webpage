@@ -93,15 +93,30 @@ button {
   
 }
 
+.cream {
+    
+  text-indent:2em;  
+  text-align:center; 
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 25px  25px;
+  color: rgb(37, 104, 37);
+  
+}
+
 .about {
   color: rgb(43, 45, 161);
   text-align: center;
 
 }
 
+.ufc {
+  color: red;
+  text-align: center;
+}
 
 
-img {
+.redB {
   border: 3px dashed indianred;
 }
 

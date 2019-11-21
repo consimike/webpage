@@ -4,42 +4,40 @@
   <title> Mike's Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZj6FB3aBVpYxz8jF0x3dH5lr9G9rKcPYjTKWQNkbKTpXo6V1j">
   <link rel = 'stylesheet' href = 'static/style.css'>
 
 </head>
 <body class = 'bodies'>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="">Michael Considine's Page</a>
-    </div>
-    <div class="collapse navbar-collapse nav navbar-nav navbar-right" id="myNavbar">
-      <ul class="nav navbar-nav">
-        
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Links <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li> <a target = "_blank"  href="https://www.linkedin.com/in/mconsidin/"> LinkedIn </a> </li>
-            <li> <a target = "_blank"  href="https://github.com/consimike">GitHub </a> </li>
-            <li> <a target = "_blank" href = "static/Data.Resumev2.docx" download = "Mike_Considine's_Resume.docx"> Resume </a> </li>
-            <li> <a target = "_blank" href = "/video" > Twitter Sentiment Project </a> </li>
-            <li> <a target = "_blank" href = 'https://www.ufcmachinelearning.com'> UFC Prediction Website </a> </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="">Michael Considine's Page</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+              <div class="collapse navbar-collapse nav navbar-nav navbar-right" id="collapsibleNavbar">
+                 <ul class="nav navbar-nav ml-auto flex-row">
+                    <li class = 'nav-item'> 
+                       <a class = 'nav-link' href = '/contact'> Contact</a>
+                    </li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id = 'navbarDropdownMenuLink'aria-haspopup="true" aria-expanded="false"> Links</a>
+                    <div class="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
+                        <a target = "_blank" class = 'dropdown-item' href="https://www.linkedin.com/in/mconsidin/"> LinkedIn </a> 
+                        <a target = "_blank" class = 'dropdown-item' href="https://github.com/consimike">GitHub </a> 
+                        <a target = "_blank" class = 'dropdown-item' href = "static/Data.Resumev2.docx" download = "Mike_Considine's_Resume.docx"> Resume </a> 
+                        <a target = "_blank" class = 'dropdown-item' href = "/video" > Twitter Sentiment Project </a> 
+                        <a target = "_blank" class = 'dropdown-item' href = 'https://www.ufcmachinelearning.com'> UFC Prediction Website </a> 
+                    </div>
+                 </li>
+                 </ul>
+              </div>
+           
+        </nav>
   
 <!-- Title -->
 <div class = "container">
@@ -53,17 +51,17 @@
 <!-- Header for resume, and downloadable link -->
 <div class = "container-fluid">
   <div class = "row">
-    <div class = "col-lg-6 col-md-6 col-sm-6 mx-auto ">
+    <div class = "col-lg-4 col-md-4 col-sm-4 mx-auto d-block ">
       <h2 class = 'center resume-text'>Resume</h5>
         <div>
           <a href = "static/MC_ResumeV1.docx" download ="Mike_Considine's_Resume.docx" >
-          <img class = " img-responsive center-block" src = "static/resume.1.PNG">
+          <img class = " img-fluid d-block mx-auto" src = "static/resume.1.PNG">
           </a>
         </div>
     </div> 
   
 
-    <div class = 'col-lg-6 col-md-6 col-sm-6 '>
+    <div class = 'col-lg-4 col-md-4 col-sm-4 '>
       <h2 class = 'about'>
         About Me
       </h2> 
@@ -72,8 +70,23 @@
         a lean mindset to achieve the results. Proven productivity results through Kaizen events where a 35% productivity improvement was achieved. Voted Kaizen Champion during an internal competition from an 
         outside consultant and upper management. Knows how to present data to upper management in a concise and thought out manner. Motivated by finding the answer, and making a process better permanently. 
       </p>
-      <img class = 'award img-responsive center-block'style = 'max-width: 60%;' src = 'static/award.jpg'>
+      <img class = 'award img-fluid d-block mx-auto my-auto' style = 'max-width: 65%;' src = 'static/award.jpg'>
       
+    </div>
+
+    <div class = 'col-lg-4 col-md-4 col-sm-4 '>
+        <h2 class = 'ufc'>
+          <a target= "_blank" href = 'https://www.ufcmachinelearning.com' class = 'ufc'> UFC Prediction
+          </a>
+        </h2> 
+        <p class = 'para'> I worked with two other individuals to create a machine learning model which could be used to predict UFC fights.
+          Our first step was to find data, which we found the UFC fight history on kaggle.com and scraped UFC fighter data using the python library beautiful soup. After finding the raw data, we needed to 
+          clean it. The cleaning process was done using the python library pandas, and after the data was pristine condition we researched and determined the best machine learning model would be a
+          neural network. We tweaked and tweaked the model until we came up with 1 input layer, 1 hidden layer, and 1 output layer. To create the webpage we used flask for our 
+          backend and Html/CSS and a bit of Javascript for the frontend. 
+        <p class = 'cream'> At the end, and after much deliberation we achieved an accuracy of 71%.</p>
+        <img class = ' img-fluid d-block mx-auto' src = 'static/ufc_octagon.jpg'>
+        
     </div>
 
   </div>
@@ -83,18 +96,12 @@
 <div class = "container-fluid">
   
   <div class = "row">
-    <h3 class = 'links'> Click 
+    <h3 class = 'links mx-auto'> Click 
       <a target = "_blank" href = '/video'> here </a>
       to view the twitter sentiment project in action!
     </h3>
   </div>
 
-  <div class = "row">
-    <h3 class = 'links'> Click 
-      <a target = "_blank" href = 'https://www.ufcmachinelearning.com'> here </a>
-      to view the UFC Prediction project. Type in some of your favorite fighters, and see how they stack up against one another!
-    </h3>
-  </div>
 
 </div>
   
