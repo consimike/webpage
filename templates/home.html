@@ -29,10 +29,11 @@
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Links <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a target = "_blank"  href="https://www.linkedin.com/in/mconsidin/">LinkedIn</a></li>
-            <li><a target = "_blank"  href="https://github.com/consimike">GitHub</a></li>
+            <li> <a target = "_blank"  href="https://www.linkedin.com/in/mconsidin/"> LinkedIn </a> </li>
+            <li> <a target = "_blank"  href="https://github.com/consimike">GitHub </a> </li>
             <li> <a target = "_blank" href = "static/Data.Resumev2.docx" download = "Mike_Considine's_Resume.docx"> Resume </a> </li>
-            <li> <a target = "_blank" href = "/video" > Twitter Sentiment Project </a></li>
+            <li> <a target = "_blank" href = "/video" > Twitter Sentiment Project </a> </li>
+            <li> <a target = "_blank" href = 'https://www.ufcmachinelearning.com'> UFC Prediction Website </a> </li>
           </ul>
         </li>
       </ul>
@@ -52,17 +53,17 @@
 <!-- Header for resume, and downloadable link -->
 <div class = "container-fluid">
   <div class = "row">
-    <div class = "col-lg-6 ">
+    <div class = "col-lg-6 col-md-6 col-sm-6 mx-auto ">
       <h2 class = 'center resume-text'>Resume</h5>
         <div>
-          <a href = "static/Data.Resumev2.docx" download ="Mike_Considine's_Resume.docx" >
-          <img class = "resume" src = "static/resume.1.PNG">
+          <a href = "static/MC_ResumeV1.docx" download ="Mike_Considine's_Resume.docx" >
+          <img class = " img-responsive center-block" src = "static/resume.1.PNG">
           </a>
         </div>
     </div> 
   
 
-    <div class = 'col-lg-6'>
+    <div class = 'col-lg-6 col-md-6 col-sm-6 '>
       <h2 class = 'about'>
         About Me
       </h2> 
@@ -71,7 +72,7 @@
         a lean mindset to achieve the results. Proven productivity results through Kaizen events where a 35% productivity improvement was achieved. Voted Kaizen Champion during an internal competition from an 
         outside consultant and upper management. Knows how to present data to upper management in a concise and thought out manner. Motivated by finding the answer, and making a process better permanently. 
       </p>
-      <img class = 'award' src = 'static/award.jpg'>
+      <img class = 'award img-responsive center-block'style = 'max-width: 60%;' src = 'static/award.jpg'>
       
     </div>
 
@@ -88,57 +89,14 @@
     </h3>
   </div>
 
+  <div class = "row">
+    <h3 class = 'links'> Click 
+      <a target = "_blank" href = 'https://www.ufcmachinelearning.com'> here </a>
+      to view the UFC Prediction project. Type in some of your favorite fighters, and see how they stack up against one another!
+    </h3>
+  </div>
+
 </div>
-  <!-- <div class = col-lg-6>
-      <div id="wrapper" class = 'center'>
-          
-          
-          <form action = "{{url_for('build')}}" method = "POST" >
-           
-            <h2>What is the greatest factor in being successful?</h2>
-           
-            <label><input type="radio" name="a1" value="Work Ethic">
-              Work Ethic
-            </label><br />
-            <label><input type="radio" name="a2" value="Intelligence">
-              Intelligence
-            </label><br />
-            <label><input type="radio" name="a3" value="Motivation/Dedication">
-              Motivation/Dedication
-            </label><br />
-            <label><input type="radio" name="a4" value="Attitude">
-              Attitude
-            </label><br /> -->
-        
-           
-<!--             
-          <button type="submit" id="submit" onclick="tabulateAnswers()">Submit Your Answer</button>
-          <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
-          </form>
-          {{ msg }}
-          
-          <div id="result">
-            <table>
-              <thead>
-                 <td>id</td>
-                 <td>Work Ethic</td>
-                 <td>Intelligence</td>
-                 <td>Motivation/Dedication</td>
-                 <td>Attitude</td>
-              </thead>
-              
-              {% for row in rows %}
-                 <tr>
-                    <td>{{row["id"]}}</td> -->
-                    <!-- <td>{{row["a1"]}}</td>
-                    <td> {{row["a2"]}}</td>
-                    <td>{{row['a3']}}</td>
-                    <td>{{row['a4']}}</td>		
-                 </tr>
-              {% endfor %}
-           </table>
-          </div>
-        </div> -->
   
 
 

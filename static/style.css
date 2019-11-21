@@ -1,19 +1,19 @@
 .resume {
-  width: 750px;
-  height: 750px;
+  width: 700px;
+  height: 800px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .award {
-  width:  500px;
+  /* width:  500px;
   height: 650px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; */
   transform: rotate(270deg);
 }
 
@@ -127,3 +127,5 @@ footer {
   display: block;
   margin-left: 300px;
 }
+
+
